@@ -47,15 +47,26 @@ a:hover {
   color: white
 }
 
-header {
-  text-align: center;
-  background: url('images/feathers.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
+.logo{
+color:white;
 }
+
+
+header .header-cover {
+  background: no-repeat top center;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+  }
+
+
+
+
 header {
-  line-height: 1.5;
+  line-height: .5;
 }
 header .profile-image {
   margin-top: 50px;
@@ -127,13 +138,13 @@ a.social {
   transition: all .25s;
 }
 a.codeclan {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/codeclan.jpg);
 }
 a.facebook {
-  background-image: url(images/linkedin.svg);
+  background-image: url(images/facebook.png);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github.png);
 }
 a.social:hover {
   opacity: 1;
