@@ -1,0 +1,11 @@
+<h2>Your Tags</h2>
+
+<% @bookmark.each do |bookmark| %>
+  <b>Name:</b>
+  <p><%= bookmark.pretty_name() %></p>
+  <b>Your Tag:</b>
+  <p>Title: <%= bookmark.title %><br>The Url: <%= bookmark.url %></p>
+<a href="/bookmark/<%= bookmark.id %>">View Bookmarks</a>
+
+  <hr>
+<% end %>

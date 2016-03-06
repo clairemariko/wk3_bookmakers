@@ -1,0 +1,29 @@
+<div class="content">
+
+  <h2>Edit Tags</h2>
+
+  <form action="/bookmark/<%= @bookmark.id %>" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" name="first_name" value=" <%= @bookmark.first_name %>">
+    <br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" value= "<%= @bookmark.last_name %>"><br>
+
+    <label for="genre">Select a genre:</label>
+    <select name="genre">
+      <option value="News Article">News Article</option>
+      <option value="Academia">Academia</option>
+      <option value="Personal">Personal</option>
+      <option value="Business">Business</option>
+      <option value="Random">Random</option>
+    </select><br>
+
+
+    <label for="title">Title:</label>
+    <input type="text" name="title" value= "<%= @bookmark.title %>"><br>
+
+    <input type='submit' value="Update bookmark">
+  </form>
+
+</div>

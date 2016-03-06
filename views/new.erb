@@ -3,7 +3,7 @@
 
 
 
-<form action = "/bookmark" method="post">
+<form action = "/bookmark/new" method="post">
 
 <label>First Name:</label>
 <input type= "text" name="first_name">
@@ -12,22 +12,19 @@
 <input type="text" name="last_name">
 
 <label>Title:</label>
-<input type= "text" name="Title">
+<input type= "text" name="title">
 
 <label>Genre</label>
-<select name='Genre'>
+<select name='genre'>
 <option value="News Article">News Article</option>
-<option value ="Comedy">Comedy</option>
-<option value="Hobby">Hobby</option>
+<option value ="Academia">Academia</option>
 <option value="Personal">Personal</option>
 <option value="Business">Business</option>
+<option value="Random">Random</option>
 </select>
 
 <label>URL</label>
-<input type= "text" name="URL">
-
-
-
+<input type= "text" name="url">
 
 <input type="submit" value ="Tag Page">
 </form>

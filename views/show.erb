@@ -1,0 +1,15 @@
+<b>Name:</b>  
+<p><%= @bookmark.pretty_name() %></p>
+
+<b>Save</b>
+<p><%= @bookmark.title %></p> 
+<p><%= @bookmark.url %></p>
+
+<a href="/bookmark/<%= @bookmark.id %>/edit">Edit Your Bookmarks</a>
+
+
+<form action="/bookmark/<%= @bookmark.id %>/delete" method="post">
+
+<input type="submit" value="Delete">
+
+</form>
