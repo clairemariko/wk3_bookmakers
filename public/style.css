@@ -51,12 +51,13 @@ a:hover {
 color:white;
 }
 
-
+/*CANT MAKE IMAGE FILL HEADER!!!*/
 header .header-cover {
+  background-size:100% 100%å
   background: no-repeat top center;
   overflow: hidden;
-  width: 150px;
-  height: 150px;
+  /*width: 150px;
+  height: 150px;*/
   padding: 5px;
   position: fixed;
   text-align: center;
@@ -66,7 +67,7 @@ header .header-cover {
 
 
 header {
-  line-height: .5;
+  line-height: 2.5;
 }
 header .profile-image {
   margin-top: 50px;

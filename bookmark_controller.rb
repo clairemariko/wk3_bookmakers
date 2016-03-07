@@ -43,6 +43,13 @@ post '/bookmark' do
   erb( :create )
 end
 
+#SEARCH
+# post '/bookmark' do
+#not sure how to do this
+
+
+
+
 #DESTROY
 post '/bookmark/:id/delete' do
   Bookmark.destroy( params[:id])
